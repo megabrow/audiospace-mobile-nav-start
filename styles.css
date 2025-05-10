@@ -1,5 +1,9 @@
 /********* CSS RESETS **********/
 
+nav ul, nav ol {
+	list-style-type: none;
+}
+
 img {
 	max-width:100%;
 }
@@ -19,6 +23,23 @@ body {
 
 header {
 	padding:0 15px 20px 15px;
+}
+
+#navigation {
+	position: relative;
+}
+
+#mobilenav {
+	background: #f69331;
+	margin-bottom: 20px;
+	padding-right: 20px;
+}
+
+#mobilenav h2 {
+	text-align: right;
+	line-height: 50px;
+	color: #ebebeb;
+	font-size: 36px;
 }
 
 section{ padding: 30px 15px; }
