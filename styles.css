@@ -42,6 +42,37 @@ header {
 	font-size: 36px;
 }
 
+#mainnav {
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	border-top: 1px solid #ca6a0c;
+}
+
+#mainnav ul {
+	background: #f69331;
+}
+
+#mainnav ul li a {
+	display: block;
+	background: #f69331;
+	color: #ebebeb;
+	font-weight: 700;
+	font-size: 360px;
+	line-height: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-aligh: right;
+	padding-right: 20px;
+	width: 180px;
+	border-bottom: 1px solid #ca6a0c;
+}
+
+#main nav ul li a:hover {
+	background: #40606f;
+}
+
 section{ padding: 30px 15px; }
 
 #new-release { background:#ebebeb; }
